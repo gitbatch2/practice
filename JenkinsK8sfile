@@ -11,7 +11,7 @@ node{
       
     } 
     
-    #echo
+    
     stage('Build Docker Image'){
         sh 'docker build -t neelakanta03/pragimtech:1.0 .'
     }
